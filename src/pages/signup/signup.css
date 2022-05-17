@@ -1,0 +1,60 @@
+.login {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #222222;
+  padding-top: 30px;
+  margin-top: 90px;
+  margin-bottom: 90px;
+  -webkit-box-shadow: 5px 5px 15px 5px #000000;
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+
+input {
+  width: 60%;
+  margin-top: 30px;
+  font-size: 17px;
+  height: 40px;
+  padding-left: 20px;
+}
+
+textarea {
+  width: 60%;
+  padding-top: 10px;
+  margin-top: 30px;
+  font-size: 17px;
+  height: 40px;
+  padding-left: 20px;
+  height: 130px;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+button {
+  width: 30%;
+  margin: 30px 30px 60px 30px;
+  background-color: #ee573d;
+  border: none;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 15px 17px;
+}
+
+button:hover {
+  background-color: #ed725d;
+  cursor: pointer;
+}
+
+p {
+  font-size: 14px;
+  font-weight: bold;
+  color: red;
+}
+
+@media only screen and (max-width: 800px) {
+  .login {
+    width: 450px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+}

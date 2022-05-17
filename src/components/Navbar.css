@@ -1,0 +1,30 @@
+.header {
+  background-color: #000000;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+  margin-right: 60px;
+}
+
+ul a {
+  list-style: none;
+  text-decoration: none;
+  color: #ee573d;
+}
+
+ul a:hover {
+  font-weight: bold;
+  color: #ed725d;
+}
+
+li {
+  padding: 0px 0px 0px 30px;
+  text-transform: uppercase;
+}
